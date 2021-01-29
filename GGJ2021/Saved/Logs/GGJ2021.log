@@ -24242,3 +24242,63 @@ Any materials which use this function will lose their connections to these funct
 [2021.01.29-03.41.08:999][190]AssetCheck: New page: Asset Save: multiple assets
 [2021.01.29-03.41.08:999][190]LogContentValidation: Display: Validating World /Game/Maps/TestMaps/AndyMap.AndyMap
 [2021.01.29-03.41.08:999][190]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/TestMaps/AndyMap_BuiltData.AndyMap_BuiltData
+[2021.01.29-03.41.57:716][365]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.01.29-03.42.16:509][421]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.01.29-03.43.01:644][553]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.29-03.43.01:676][553]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.29-03.43.01:676][553]PIE: New page: PIE session: AndyMap (Jan 28, 2021, 5:43:01 PM)
+[2021.01.29-03.43.01:676][553]LogPlayLevel: Creating play world package: /Game/Maps/TestMaps/UEDPIE_0_AndyMap
+[2021.01.29-03.43.01:700][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023679s)
+[2021.01.29-03.43.01:703][553]LogAIModule: Creating AISystem for world AndyMap
+[2021.01.29-03.43.01:703][553]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021682FCC600), frame # 842553
+[2021.01.29-03.43.01:703][553]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000217007A8900), frame # 842553
+[2021.01.29-03.43.01:703][553]LogPlayLevel: PIE: World Init took: (0.002893s)
+[2021.01.29-03.43.01:704][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMaps/AndyMap.AndyMap to /Game/Maps/TestMaps/UEDPIE_0_AndyMap.AndyMap (0.027035s)
+[2021.01.29-03.43.01:740][553]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2021.01.29-03.43.01:743][553]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.29-03.43.01:743][553]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.29-03.43.01:743][553]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.29-03.43.01:743][553]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.29-03.43.01:743][553]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.29-03.43.01:743][553]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.29-03.43.01:744][553]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.29-03.43.01:744][553]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.29-03.43.01:744][553]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.29-03.43.01:744][553]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.29-03.43.01:763][553]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.29-03.43.01:763][553]LogAudioMixer: Display: 1: FrontRight
+[2021.01.29-03.43.01:804][553]LogAudioMixer: Display: Using Audio Device VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)
+[2021.01.29-03.43.01:804][553]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.29-03.43.01:804][553]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.29-03.43.01:804][553]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.29-03.43.01:805][553]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.29-03.43.01:832][553]LogInit: FAudioDevice initialized.
+[2021.01.29-03.43.01:843][553]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.01.29-03.43.01:848][553]LogWorld: Bringing World /Game/Maps/TestMaps/UEDPIE_0_AndyMap.AndyMap up for play (max tick rate 0) at 2021.01.28-22.43.01
+[2021.01.29-03.43.01:849][553]LogWorld: Bringing up level for play took: 0.004490
+[2021.01.29-03.43.01:849][553]LogOnline: OSS: Creating online subsystem instance for: :Context_79
+[2021.01.29-03.43.01:853][553]PIE: Server logged in
+[2021.01.29-03.43.01:855][553]PIE: Play in editor total start time 0.189 seconds.
+[2021.01.29-03.43.14:456][683]LogHttp: Warning: 0000021693E59600: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B416DC3F4-47B9-D7AE-3FD8-DEBED5C6560E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=50d8db874ff488c10ed80cba7edde87c%7C9ae69a2c26804531832191d45eb29094%7C6d203cc6-5763-4770-a677-8afa7ce06d4c&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.01.29-03.43.14:456][683]LogHttp: Warning: 0000021693E59600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.01.29-03.43.14:456][683]LogHttp: Warning: 0000021693E59600: libcurl info message cache 0 (Connection 201 seems to be dead!)
+[2021.01.29-03.43.14:456][683]LogHttp: Warning: 0000021693E59600: libcurl info message cache 1 (Closing connection 201)
+[2021.01.29-03.43.14:456][683]LogHttp: Warning: 0000021693E59600: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2021.01.29-03.43.14:456][683]LogHttp: Warning: 0000021693E59600: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.01.29-03.43.14:457][683]LogHttp: Warning: 0000021693E59600: libcurl info message cache 4 (Closing connection 202)
+[2021.01.29-03.43.14:457][683]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B416DC3F4-47B9-D7AE-3FD8-DEBED5C6560E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=50d8db874ff488c10ed80cba7edde87c%7C9ae69a2c26804531832191d45eb29094%7C6d203cc6-5763-4770-a677-8afa7ce06d4c&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.01.29-03.43.17:821][970]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.29-03.43.17:821][970]LogWorld: BeginTearingDown for /Game/Maps/TestMaps/UEDPIE_0_AndyMap
+[2021.01.29-03.43.17:821][970]LogWorld: UWorld::CleanupWorld for AndyMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.29-03.43.17:822][970]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.29-03.43.17:839][970]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.29-03.43.17:844][970]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.29-03.43.17:870][970]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.29-03.43.17:904][970]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000217007A8900), frame # 843970
+[2021.01.29-03.43.17:904][970]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021682FCC600), frame # 843970
+[2021.01.29-03.43.17:906][970]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2021.01.29-03.43.17:961][971]LogPlayLevel: Display: Destroying online subsystem :Context_79
+[2021.01.29-03.45.35:013][501]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.01.29-04.04.31:742][892]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.01.29-04.04.31:743][892]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft Quick).
+[2021.01.29-04.07.36:437][442]LogAudioMixer: Display: Audio Buffer Underrun detected.
