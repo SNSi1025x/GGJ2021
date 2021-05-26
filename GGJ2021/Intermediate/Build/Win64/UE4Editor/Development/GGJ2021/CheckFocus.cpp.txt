@@ -1,3 +1,3 @@
-D:\Revelations\GGJ2021\GGJ2021\Intermediate\Build\Win64\UE4Editor\Development\GGJ2021\Definitions.GGJ2021.h
-D:\Revelations\GGJ2021\GGJ2021\Source\GGJ2021\CheckFocus.h
-D:\Revelations\GGJ2021\GGJ2021\Intermediate\Build\Win64\UE4Editor\Inc\GGJ2021\CheckFocus.generated.h
+C:\Users\Delro\OneDrive\Documents\GitHub\Revelations\GGJ2021\GGJ2021\Intermediate\Build\Win64\UE4Editor\Development\GGJ2021\Definitions.GGJ2021.h
+C:\Users\Delro\OneDrive\Documents\GitHub\Revelations\GGJ2021\GGJ2021\Source\GGJ2021\CheckFocus.h
+C:\Users\Delro\OneDrive\Documents\GitHub\Revelations\GGJ2021\GGJ2021\Intermediate\Build\Win64\UE4Editor\Inc\GGJ2021\CheckFocus.generated.h
