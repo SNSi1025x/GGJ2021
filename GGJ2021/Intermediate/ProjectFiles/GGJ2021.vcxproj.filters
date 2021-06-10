@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\GGJ2021.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{3DE04BF2-AE3B-42B2-872B-46DAE6CE4573}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GGJ2021.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\GGJ2021Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{5F6485DD-FF86-4DD1-9B71-4F25801AFD9B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGameplayTags.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\GGJ2021">
+      <UniqueIdentifier>{6F21756E-E7F8-4270-B4CB-D1EE2E2AD6DB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GGJ2021\CheckFocus.cpp">
+      <Filter>Source\GGJ2021</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GGJ2021\CheckFocus.h">
+      <Filter>Source\GGJ2021</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GGJ2021\FocusCheck.cpp">
+      <Filter>Source\GGJ2021</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GGJ2021\FocusCheck.h">
+      <Filter>Source\GGJ2021</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\GGJ2021\GGJ2021.Build.cs">
+      <Filter>Source\GGJ2021</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\GGJ2021\GGJ2021.cpp">
+      <Filter>Source\GGJ2021</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GGJ2021\GGJ2021.h">
+      <Filter>Source\GGJ2021</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
