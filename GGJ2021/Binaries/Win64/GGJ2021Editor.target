@@ -517,26 +517,6 @@
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/MegascansPlugin/Binaries/Win64/UE4Editor-MegascansPlugin.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Editor/EditorScriptingUtilities/Binaries/Win64/UE4Editor-EditorScriptingUtilities.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Database/SQLiteSupport/Binaries/Win64/UE4Editor-SQLiteSupport.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Database/DatabaseSupport/Binaries/Win64/UE4Editor-DatabaseSupport.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Database/SQLiteCore/Binaries/Win64/UE4Editor-SQLiteCore.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/MeshPainting/Binaries/Win64/UE4Editor-MeshPaintEditorMode.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -590,6 +570,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/MovieScene/MovieRenderPipeline/Binaries/Win64/UE4Editor-MovieRenderPipelineEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Editor/EditorScriptingUtilities/Binaries/Win64/UE4Editor-EditorScriptingUtilities.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
@@ -2493,26 +2477,6 @@
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/MegascansPlugin/Binaries/Win64/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Editor/EditorScriptingUtilities/Binaries/Win64/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Database/SQLiteSupport/Binaries/Win64/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Database/DatabaseSupport/Binaries/Win64/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Database/SQLiteCore/Binaries/Win64/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/MeshPainting/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -2542,6 +2506,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/MovieScene/MovieRenderPipeline/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Editor/EditorScriptingUtilities/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -2927,26 +2895,6 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/MegascansPlugin/MegascansPlugin.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Editor/EditorScriptingUtilities/EditorScriptingUtilities.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Database/SQLiteSupport/SQLiteSupport.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Database/DatabaseSupport/DatabaseSupport.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Database/SQLiteCore/SQLiteCore.uplugin",
-			"Type": "UFS"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/MeshPainting/MeshPainting.uplugin",
 			"Type": "UFS"
 		},
@@ -2976,6 +2924,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/MovieScene/MovieRenderPipeline/MovieRenderPipeline.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Editor/EditorScriptingUtilities/EditorScriptingUtilities.uplugin",
 			"Type": "UFS"
 		},
 		{
