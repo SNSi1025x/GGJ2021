@@ -15,13 +15,13 @@ struct FCameraShakes
 	GENERATED_USTRUCT_BODY()
 
 	UPROPERTY(EditInstanceOnly, meta = (ToolTip = "A camera shake to play while in an idle state"), Category = "Shakes")
-		TSubclassOf<class UCameraShake> IdleShake;
+		TSubclassOf<class UMatineeCameraShake> IdleShake;
 	UPROPERTY(EditInstanceOnly, meta = (ToolTip = "A camera shake to play while walking"), Category = "Shakes")
-		TSubclassOf<class UCameraShake> WalkShake;
+		TSubclassOf<class UMatineeCameraShake> WalkShake;
 	UPROPERTY(EditInstanceOnly, meta = (ToolTip = "A camera shake to play while running"), Category = "Shakes")
-		TSubclassOf<class UCameraShake> RunShake;
+		TSubclassOf<class UMatineeCameraShake> RunShake;
 	UPROPERTY(EditInstanceOnly, meta = (ToolTip = "A camera shake to play when player has jumped"), Category = "Shakes")
-		TSubclassOf<class UCameraShake> JumpShake;
+		TSubclassOf<class UMatineeCameraShake> JumpShake;
 };
 
 USTRUCT()
@@ -144,11 +144,14 @@ protected:
 	UPROPERTY(EditAnywhere, Category = "First Person Settings", meta = (ToolTip = "Add one of your custom camera shakes to the corresponding slot"))
 		FCameraShakes CameraShakes;
 
+	UPROPERTY()
 	class UInputSettings* Input{};
 
 private:
+	UPROPERTY()
 	APlayerController* PlayerController;
 
+	UPROPERTY()
 	UFirstPersonFootstepData* CurrentFootstepMapping;
 	
 	// Footstep variables

@@ -40,6 +40,7 @@ public class FirstPersonCharacter : ModuleRules
 				"Slate",
 				"SlateCore",
 				"InputCore",
+				"PhysicsCore"
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);
