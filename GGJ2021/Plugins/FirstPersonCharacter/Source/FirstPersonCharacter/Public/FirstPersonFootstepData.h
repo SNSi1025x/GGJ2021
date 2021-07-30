@@ -32,7 +32,7 @@ public:
 	
 protected:
 	UPROPERTY(EditDefaultsOnly, Category = "Properties")
-	UPhysicalMaterial* PhysicalMaterial;
+	UPhysicalMaterial* PhysicalMaterial = nullptr;
 
 	// Walk stride setting. How many units should the character travel unitl we play the next footstep sound? (Distance between footsteps) Lower=More Frequently, Higher=Less Frequently
 	UPROPERTY(EditInstanceOnly, Category = "Footstep", meta = (EditCondition = "bEnableFootsteps"))
