@@ -31,6 +31,10 @@
 		{
 			"Name": "ResonanceAudio",
 			"Enabled": true
+		},
+		{
+			"Name": "SteamAudio",
+			"Enabled": true
 		}
 	]
 }
