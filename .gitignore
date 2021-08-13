@@ -122,3 +122,6 @@ GGJ2021/.p4ignore
 *.mp4
 *.probebatch
 *.probebox
+*.phononinfo
+*.phononscene
+*.phononsceneinfo
